@@ -1,0 +1,46 @@
+{
+  "name": "ishuffle",
+  "version": "1.0.0",
+  "description": "Shuffle strings, arrays and objects - with optional nested support.",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.cjs"
+  },
+  "scripts": {
+    "build": "tsup",
+    "watch": "tsup --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.2",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "MARCEL EBALLAR",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MACLEB1903/ishuffle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MACLEB1903/ishuffle/issues"
+  },
+  "homepage": "https://github.com/MACLEB1903/ishuffle#readme",
+  "keywords": [
+    "ishuffle",
+    "shuffle",
+    "utility",
+    "arrays",
+    "strings",
+    "objects"
+  ]
+}
