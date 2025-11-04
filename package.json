@@ -1,6 +1,6 @@
 {
   "name": "ishuffle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shuffle strings, arrays and objects - with optional nested support.",
   "files": [
     "dist"
