@@ -11,7 +11,7 @@ Shuffle strings, arrays and objects - with optional nested support.
 ## Imports
 
 ```bash
-import ishuffle from "ishuffle"
+import ishuffle from "ishuffle";
 ```
 
 ```bash
@@ -33,7 +33,7 @@ ishuffle("Hello World!");
 // [dolole !HWrl]
 ```
 
-### passmaker(argument1, argument2)
+### ishuffle(argument1, argument2)
 
 Shuffle multiple values.
 
@@ -46,7 +46,7 @@ ishuffle("Hello World!", [1, 2, 3, 4, 5]);
 // [ 'rdllHoWeo l!', [ 2, 4, 1, 5, 3 ] ]
 ```
 
-### passmaker({options})
+### ishuffle({options})
 
 Shuffle multiple provided values using (shuffle and useNested) options.
 
